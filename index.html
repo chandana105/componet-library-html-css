@@ -1,97 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Component Library</title>
-</head>
-<body>
-  <h1>Chandana's Component Library</h1>
-  <p>I am attendng neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component Library</title>
+  </head>
+  <body>
+    <h1>Chandana's Component Library</h1>
+    <p>
+      I am attendng neog.camp and I want to make a library which would make all
+      my projects look good and consistent.
+    </p>
 
-  <hr>
+    <hr />
 
-  <h2>@typography</h2>
-  <!-- block thogh diff rows here -->
-  <h1>This is the biggest heading.</h1><h1>Another</h1>
-  <h2>This is the second biggest.</h2>
-  <p>Let me show you normal text. This is free flowing and will wrap at the end like a paragraph. </p>
-  <small>This is relatively smaller text.</small>
+    <h2>@typography</h2>
+    <!-- block thogh diff rows here -->
+    <h1>This is the biggest heading.</h1>
+    <h1>Another</h1>
+    <h2>This is the second biggest.</h2>
+    <p>
+      Let me show you normal text. This is free flowing and will wrap at the end
+      like a paragraph.
+    </p>
+    <small>This is relatively smaller text.</small>
 
-  <hr>
+    <hr />
 
-  <h2>@containers</h2>
-  
-  <h3>fluid container</h3>
-  <div>This is a fluid container and it will go till the end of the page.</div>
+    <h2>@containers</h2>
 
-  <h3>center container</h3>
-  <div>This is a centered container and it will go till specified width.</div>
+    <h3>fluid container</h3>
+    <div>
+      This is a fluid container and it will go till the end of the page.
+    </div>
 
-  <hr>
+    <h3>center container</h3>
+    <div>This is a centered container and it will go till specified width.</div>
 
-  <h2>links</h2>
-  <!-- inline thogh diffrent rows -->
-  <a href="/">Primary Link</a>
-  <a href="/">Secondary Link</a>
+    <hr />
 
-  <hr>
-  <h2>@lists</h2>
+    <h2>links</h2>
+    <!-- inline thogh diffrent rows -->
+    <a href="/">Primary Link</a>
+    <a href="/">Secondary Link</a>
 
-  <h3>unordered list</h3>
-  <ul>
-    <li>Item One</li>
-    <li>Item Two</li>
-    <li>Item Three</li>
-  </ul>
+    <hr />
+    <h2>@lists</h2>
 
-
-  <h3>unordered inline list</h3>
-  <ul>
-    <li>inline Item One</li>
-    <li>inline Item Two</li>
-    <li>inline Item Three</li>
-  </ul>
-
-
-  <h3>reverse ordered list</h3>
-  <ol>
-    <li>milk</li>
-    <li>jam</li>
-    <li>bread</li>
-  </ol>
-
-
-  <hr>
-  <h2>@nav</h2>
-
-  <nav>
-    <div>I am Brand</div>
-    <ul>  
-      <li>
-        <a href="/">Home</a> 
-      </li>
-      <li>
-        <a href="/">About</a> 
-      </li>
-      <li>
-        <a href="/">Prodcuts</a> 
-      </li>
+    <h3>unordered list</h3>
+    <ul>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
     </ul>
-  </nav>
 
-  <hr>
+    <h3>unordered inline list</h3>
+    <ul>
+      <li>inline Item One</li>
+      <li>inline Item Two</li>
+      <li>inline Item Three</li>
+    </ul>
 
-  <h2>@header</h2>
-  <header>
-    <img src="/images/undraw_react_y7wq.svg" >
-    <!-- <img src="
+    <h3>reverse ordered list</h3>
+    <ol>
+      <li>milk</li>
+      <li>jam</li>
+      <li>bread</li>
+    </ol>
+
+    <hr />
+    <h2>@nav</h2>
+
+    <nav>
+      <div>I am Brand</div>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/">About</a>
+        </li>
+        <li>
+          <a href="/">Prodcuts</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <h2>@header</h2>
+    <header>
+      <img src="/images/undraw_react_y7wq.svg" />
+      <!-- <img src="
     https://rukminim1.flixcart.com/image/150/150/k5ihzm80/headphone/u/t/m/mivi-tedpm20-bk-original-imafz69xxetryjx8.jpeg?q=70" > -->
-    <h1>Heading inside hero</h1>
-  </header>
+      <h1>Heading inside hero</h1>
+    </header>
 
-  <!-- to havespace at end -->
-  <div style="height: 30vh">
-  </div>
-</body>
+    <hr />
+    <h2>@section</h2>
+
+    <section>
+      <p>
+        A section is used to seperate parts of pages. In marketing websites you
+        would have seen a header followed by sections of features, team,
+        pricing, contact info etc.
+      </p>
+    </section>
+
+    <h3>normal white section</h3>
+
+    <section>
+      <h1>heading inside section</h1>
+      <p>Text defining this section and many more things</p>
+      <button>Primary Button</button>
+    </section>
+
+    <h3>off white section</h3>
+
+    <section>
+      <h1>inside off white section</h1>
+      <p>Text defining this section and many more things</p>
+      <button>Primary Button</button>
+    </section>
+
+    <hr />
+
+    <!-- footer mein not to use h1 -->
+
+    <footer>
+      <div>some small heading inside footer</div>
+      <ul>
+        <li>soicialone</li>
+        <li>soicialtwo</li>
+        <li>soicialthreee</li>
+
+      </ul>
+    </footer>
+    <!-- to havespace at end -->
+    <div style="height: 30vh"></div>
+  </body>
 </html>
