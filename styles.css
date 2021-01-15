@@ -9,6 +9,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  /* to go till end to end */
+  margin: 0px
 }
 
 hr{
@@ -100,10 +102,12 @@ hr{
 }
 
 .hero .hero-heading{
+  text-align: center;
   padding-top: 1rem;
   color : var(--dark-gray)
 }
 
+/* it means hero class ki heroheaign ke andar jo heading inverted sirf usko ye color alot ho means the ned part isaloted the css */
 .hero .hero-heading .heading-inverted{
   color : var(--primary-color)
 }
@@ -120,4 +124,21 @@ hr{
 
 .ow {
   background-color: var(--off-white);
+}
+
+/* footer */
+.footer {
+  background-color: var(--primary-color);
+  padding : 2rem 1rem;
+  text-align: center;
+  color : #fff;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: #fff;
+}
+
+.footer ul {
+  padding-inline-start : 0px;
 }
